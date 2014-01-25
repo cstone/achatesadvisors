@@ -1,14 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Achatesadvisors</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <title>Achates Capital Advisors, LLC</title>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+  <%= stylesheet_link_tag 'my_styles' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
 
+<div class="masthead">
+  <div class="container">
+    <div class="col-md-7"><%= link_to 'Achates Capital Advisors, LLC', root_path, class: 'navbar-brand' %></div>
+
+    <div class="col-md-3 text-right"><i class="fa fa-envelope"></i> <a href="mailto:rmehle@achatesadvisors.com">rmehle@achatesadvisors.com</a></div>
+    <div class="col-md-2 text-right"><i class="fa fa-phone"></i> 202-887-0552 </div>
+  </div>
+</div>
+
+<div class="container container-bg-white">
+  <div class="row">
+    <div class="navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="<%= 'active' if current_page?root_path %>"><%= link_to 'Home', root_path %></li>
+            <li class="<%= 'active' if current_page?named_path("about") %>"><%= link_to 'About Us', named_path("about") %></li>
+            <li class="<%= 'active' if current_page?named_path("roger") %>"><%= link_to 'Roger Mehle', named_path("roger") %></li>
+            <li class="<%= 'active' if current_page?named_path("dave") %>"><%= link_to 'Dave Dubin', named_path("dave") %></li>
+            <li  class="<%= 'active' if current_page?(contact_us_path) %>"><%= link_to 'Contact Us', contact_us_path %></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </div>
+
+
+  <!---  BEGIN MAIN CONTENT ROW -->
+  <div class="row">
+    <div class="col-md-12 fancypadding">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="http://s8.postimg.org/7fo0x5f9h/slider1.jpg">
+          </div>
+          <div class="item">
+            <img src="http://s8.postimg.org/7fo0x5f9h/slider1.jpg">
+          </div>
+          <div class="item">
+            <img src="http://placehold.it/1110x300">
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <!---  END MAIN CONTENT ROW -->
+
+  <!---  BEGIN MAIN CONTENT ROW -->
+  <div class="row">
+    <div class="col-md-12 fancypadding">
+      <%= yield %>
+    </div>
+  </div>
+  <!---  END MAIN CONTENT ROW -->
+
+
+
+
+
+  <!---  BEGIN FOOTER ROW -->
+  <div class="row">
+    <div class="col-md-12 fancypadding" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>What's Achates?</h4>
+            <p>In Greco-Roman mythology, Achates was the companion of Aeneas, the Trojan adventurer and warrior.  Known as "faithful Achates," he served Aeneas with great loyalty throughout the latter's epic travels -- and the founding of  Rome.</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Connect with us</h4>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-facebook"></i>Like us on Facebook</li>
+              <li><i class="fa-li fa fa-twitter"></i>Follow us on Twitter</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4>Contact us</h4>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-home"></i>3201 New Mexico Avenue, N.W. Suite 247</li>
+              <li>Washington, D.C.  20016</li>
+              <li><i class="fa-li fa fa-phone"></i>202-887-0552</li>
+              <li><i class="fa-li fa fa-envelope"></i><a href="mailto:rmehle@achatesadvisors.com">rmehle@achatesadvisors.com</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!---  END FOOTER ROW -->
+
+</div> <!-- /container -->
+
+
+<!---  BEGIN SIGN OFF -->
+<div class="row">
+  <div id="signoff"></div>
+</div>
+<!---  END SIGN OFF -->
+
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+<script src="http://getbootstrap.com/docs-assets/js/holder.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.0.1/ckeditor.js"></script>
 </body>
 </html>
+<hr/>
+<p><%= debug(params) %></p>
+<p><%= debug(@page) %></p>
+<p><%= debug(@pages) %></p>

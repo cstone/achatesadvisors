@@ -1,4 +1,15 @@
 Achatesadvisors::Application.routes.draw do
+  root :to => 'pages#show', id: 'home'
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+
+  resources :pages, except: :show
+
+  get '/p/:id', to: 'pages#show', as: :named
+# if you want the update/destroy actions to work you may want to use a different name for this route.
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

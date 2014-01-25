@@ -5,7 +5,16 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+group :development do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
+
+gem 'activeadmin'
 
 
 # Gems used only for assets and not required
@@ -21,6 +30,13 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
+gem 'activeadmin'
+gem 'contact_us', '~> 0.4.0'
+gem 'carrierwave'
+gem 'fog'
+gem 'rmagick', '~>2.13.2', :require => 'RMagick'
+gem 'figaro'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
