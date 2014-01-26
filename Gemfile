@@ -35,7 +35,7 @@ gem 'activeadmin'
 gem 'contact_us', '~> 0.4.0'
 gem 'carrierwave'
 gem 'fog'
-gem 'rmagick', '~>2.13.2', :require => 'RMagick'
+gem 'rmagick', '2.13.2', :require => 'RMagick'
 gem 'figaro'
 
 # To use ActiveModel has_secure_password

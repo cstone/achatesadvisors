@@ -1,2 +1,2 @@
 <h3><%= @page.name %></h3>
-<p><%= simple_format(@page.content) %></p>
+<p><% if !@page.page_image.to_s.empty? %><%= image_tag(@page.page_image, :class => 'img-float-right') %><% end %><%= simple_format(@page.content) %></p>

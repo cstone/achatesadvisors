@@ -1,5 +1,5 @@
 class Page < ActiveRecord::Base
-  attr_accessible :content, :name, :page_image, :permalink
+  attr_accessible :content, :name, :page_image, :permalink, :remove_image
 
   mount_uploader :page_image, PageImageUploader
 
@@ -8,4 +8,6 @@ class Page < ActiveRecord::Base
   def to_param
     permalink
   end
+
+
 end

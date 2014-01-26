@@ -35,13 +35,17 @@ class PageImageUploader < CarrierWave::Uploader::Base
   #   "/images/fallback/" + [version_name, "default.png"].compact.join('_')
   # end
 
-  process :resize_to_limit => [250, 0]
+  process :resize_to_limit => [165, 0]
   # Process files as they are uploaded:
   # process :scale => [200, 300]
   #
   # def scale(width, height)
   #   # do something
   # end
+
+  version :thumb do
+    process :resize_to_fill => [50, 50]
+  end
 
   # Create different versions of your uploaded files:
   # version :thumb do

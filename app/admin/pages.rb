@@ -11,4 +11,5 @@ ActiveAdmin.register Page do
     column :page_image
     default_actions
   end
+
 end

@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
     @contact_us_city_state_zip = DynamicContent.get_value(:contactcitystatezip)
     @contact_us_phone = DynamicContent.get_value(:contactphone)
     @contact_us_email = DynamicContent.get_value(:contactemail)
+    @contact_map = DynamicContent.get_value(:contactmap)
     @footer_about = DynamicContent.get_value(:footerabout)
     @footer_about_title = DynamicContent.get_title(:footerabout)
   end
