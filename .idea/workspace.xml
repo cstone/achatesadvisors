@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42bc5edf-7051-4004-9921-d55323c1d68e" name="Default" comment="Add DynamicContent&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/carrierwave.rb" afterPath="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/my_styles.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/my_styles.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact_us/contacts/new.html.erb" afterPath="$PROJECT_DIR$/app/views/contact_us/contacts/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/page.rb" afterPath="$PROJECT_DIR$/app/models/page.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/page_image_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/page_image_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/pages.rb" afterPath="$PROJECT_DIR$/app/admin/pages.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/show.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/show.html.erb" />
+    <list default="true" id="42bc5edf-7051-4004-9921-d55323c1d68e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="achatesadvisors.iws" />
@@ -589,7 +580,11 @@
       <created>1390744652441</created>
       <updated>1390744652441</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update uploader for Heroku">
+      <created>1390759630934</created>
+      <updated>1390759630934</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -633,7 +628,8 @@
     <MESSAGE value="Add pages" />
     <MESSAGE value="Update contact form" />
     <MESSAGE value="Add DynamicContent" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DynamicContent" />
+    <MESSAGE value="Update uploader for Heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update uploader for Heroku" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
