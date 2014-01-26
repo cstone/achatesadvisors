@@ -1,4 +1,7 @@
 Achatesadvisors::Application.routes.draw do
+  #resources :dynamic_contents
+
+
   root :to => 'pages#show', id: 'home'
 
   devise_for :admin_users, ActiveAdmin::Devise.config

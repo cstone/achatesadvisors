@@ -1,9 +1,9 @@
 <div class="col-md-4">
   <h4>Contact us</h4>
   <ul class="fa-ul">
-    <li><i class="fa-li fa fa-home"></i>3201 New Mexico Avenue, N.W. Suite 247</li>
-    <li>Washington, D.C.  20016</li>
-    <li><i class="fa-li fa fa-phone"></i>202-887-0552</li>
-    <li><i class="fa-li fa fa-envelope"></i><a href="mailto:rmehle@achatesadvisors.com">rmehle@achatesadvisors.com</a></li>
+    <li><i class="fa-li fa fa-home"></i><%= raw(@contact_us_address) %></li>
+    <li><%= raw(@contact_us_city_state_zip) %></li>
+    <li><i class="fa-li fa fa-phone"></i><%= raw(@contact_us_phone) %></li>
+    <li><i class="fa-li fa fa-envelope"></i><%= mail_to(@contact_us_email) %></li>
   </ul>
 </div>

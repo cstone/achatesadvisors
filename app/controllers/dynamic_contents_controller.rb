@@ -1,0 +1,2 @@
+class DynamicContentsController < ApplicationController
+end

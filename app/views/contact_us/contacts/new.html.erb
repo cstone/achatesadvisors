@@ -1,4 +1,6 @@
 <h3>Contact Us</h3>
+<p><%= simple_format(@contact_us_content) %></p>
+<br/>
 <%= form_for @contact, :url => contacts_path, :html => {:class => 'formtastic'} do |f| %>
   <% if ContactUs.require_name %>
     <li class='string required' id='contact_us_contact_name_input'>
