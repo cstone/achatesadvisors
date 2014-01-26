@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42bc5edf-7051-4004-9921-d55323c1d68e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/my_styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/achatesadvisors.iml" afterPath="$PROJECT_DIR$/.idea/achatesadvisors.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="achatesadvisors.iws" />
@@ -20,6 +18,7 @@
     <SUITE FILE_PATH="coverage/achatesadvisors@contact_us_copy_views__achatesadvisors.coverage" NAME="contact_us:copy_views: achatesadvisors Coverage Results" MODIFIED="1390690350620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
     <SUITE FILE_PATH="coverage/achatesadvisors@contact_us_install__achatesadvisors.coverage" NAME="contact_us:install: achatesadvisors Coverage Results" MODIFIED="1390572604032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
     <SUITE FILE_PATH="coverage/achatesadvisors@routes__achatesadvisors.coverage" NAME="routes: achatesadvisors Coverage Results" MODIFIED="1390690645789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
+    <SUITE FILE_PATH="coverage/achatesadvisors@figaro_heroku_app___achatesadvisors.coverage" NAME="figaro:heroku[app]: achatesadvisors Coverage Results" MODIFIED="1390770279020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
     <SUITE FILE_PATH="coverage/achatesadvisors@Rails_console__achatesadvisors.coverage" NAME="Rails console: achatesadvisors Coverage Results" MODIFIED="1390542428548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
     <SUITE FILE_PATH="coverage/achatesadvisors@db_migrate__achatesadvisors.coverage" NAME="db:migrate: achatesadvisors Coverage Results" MODIFIED="1390695868025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
     <SUITE FILE_PATH="coverage/achatesadvisors@Development__achatesadvisors.coverage" NAME="Development: achatesadvisors Coverage Results" MODIFIED="1390720136796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
@@ -36,7 +35,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="carrierwave.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="carrierwave.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
@@ -45,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="91" selection-start="378" selection-end="378" vertical-scroll-proportion="0.31288344" vertical-offset="0" max-vertical-offset="2329">
+            <state line="6" column="91" selection-start="378" selection-end="378" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2329">
               <folding />
             </state>
           </provider>
@@ -75,7 +74,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="50" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0" vertical-offset="727" max-vertical-offset="1292">
+            <state line="67" column="50" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -361,7 +360,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Rails.Development: achatesadvisors">
+  <component name="RunManager" selected="Rake.figaro:heroku[app]: achatesadvisors">
     <configuration default="false" name="Rails console: achatesadvisors" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="achatesadvisors" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -440,6 +439,28 @@
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="contact_us:copy_views" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="figaro:heroku[app]: achatesadvisors" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="achatesadvisors" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="figaro:heroku" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -577,7 +598,7 @@
       <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="false" />
       <method />
     </configuration>
-    <list size="9">
+    <list size="10">
       <item index="0" class="java.lang.String" itemvalue="Rails.Production: achatesadvisors" />
       <item index="1" class="java.lang.String" itemvalue="Rails.Development: achatesadvisors" />
       <item index="2" class="java.lang.String" itemvalue="Rake.test: achatesadvisors" />
@@ -587,13 +608,15 @@
       <item index="6" class="java.lang.String" itemvalue="Rake.db:migrate: achatesadvisors" />
       <item index="7" class="java.lang.String" itemvalue="Rake.contact_us:install: achatesadvisors" />
       <item index="8" class="java.lang.String" itemvalue="Rake.contact_us:copy_views: achatesadvisors" />
+      <item index="9" class="java.lang.String" itemvalue="Rake.figaro:heroku[app]: achatesadvisors" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Rake.contact_us:copy_views: achatesadvisors" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.contact_us:install: achatesadvisors" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate: achatesadvisors" />
-        <item index="3" class="java.lang.String" itemvalue="IRB console.Rails console: achatesadvisors" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Rake.figaro:heroku[app]: achatesadvisors" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.contact_us:copy_views: achatesadvisors" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.contact_us:install: achatesadvisors" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate: achatesadvisors" />
+        <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: achatesadvisors" />
       </list>
     </recent_temporary>
   </component>
@@ -669,7 +692,11 @@
       <created>1390764569961</created>
       <updated>1390764569961</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Update stylesheet reference to heroku">
+      <created>1390768075089</created>
+      <updated>1390768075089</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -990,13 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.46703297" vertical-offset="0" max-vertical-offset="364">
@@ -1025,13 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="50" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0" vertical-offset="727" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="50" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
@@ -1055,7 +1068,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="91" selection-start="378" selection-end="378" vertical-scroll-proportion="0.31288344" vertical-offset="0" max-vertical-offset="2329">
+        <state line="6" column="91" selection-start="378" selection-end="378" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2329">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="50" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="33" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
