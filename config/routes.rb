@@ -4,9 +4,11 @@ Achatesadvisors::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
+  get '/contact', to: 'contact_us/contacts#new', as: :contact
+  get ':id', to: 'pages#show', as: :named
   resources :pages, except: :show
 
-  get '/p/:id', to: 'pages#show', as: :named
+
 # if you want the update/destroy actions to work you may want to use a different name for this route.
 
 

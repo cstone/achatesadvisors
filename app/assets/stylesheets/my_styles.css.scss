@@ -90,8 +90,7 @@ body {
 }
 
 #signoff {
-  padding: 5px 0px;
-  min-height: 40px;
+  padding: 10px 0px;
   background: -webkit-linear-gradient(#003366, #00274F); /* For Safari */
   background: -o-linear-gradient(#003366, #00274F); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#003366, #00274F); /* For Firefox 3.6 to 15 */
@@ -99,6 +98,7 @@ body {
   color: #FFFFFF;
   border-top: 1px solid #FFFFFF;
   margin-top: 40px;
+  text-align: center;
 }
 
 

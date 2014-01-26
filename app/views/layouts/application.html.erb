@@ -38,7 +38,7 @@
             <li class="<%= 'active' if current_page?named_path("about") %>"><%= link_to 'About Us', named_path("about") %></li>
             <li class="<%= 'active' if current_page?named_path("roger") %>"><%= link_to 'Roger Mehle', named_path("roger") %></li>
             <li class="<%= 'active' if current_page?named_path("dave") %>"><%= link_to 'Dave Dubin', named_path("dave") %></li>
-            <li  class="<%= 'active' if current_page?(contact_us_path) %>"><%= link_to 'Contact Us', contact_us_path %></li>
+            <li  class="<%= 'active' if current_page?(contact_path) %>"><%= link_to 'Contact Us', contact_path %></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -100,26 +100,9 @@
     <div class="col-md-12 fancypadding" id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <h4>What's Achates?</h4>
-            <p>In Greco-Roman mythology, Achates was the companion of Aeneas, the Trojan adventurer and warrior.  Known as "faithful Achates," he served Aeneas with great loyalty throughout the latter's epic travels -- and the founding of  Rome.</p>
-          </div>
-          <div class="col-md-4">
-            <h4>Connect with us</h4>
-            <ul class="fa-ul">
-              <li><i class="fa-li fa fa-facebook"></i>Like us on Facebook</li>
-              <li><i class="fa-li fa fa-twitter"></i>Follow us on Twitter</li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h4>Contact us</h4>
-            <ul class="fa-ul">
-              <li><i class="fa-li fa fa-home"></i>3201 New Mexico Avenue, N.W. Suite 247</li>
-              <li>Washington, D.C.  20016</li>
-              <li><i class="fa-li fa fa-phone"></i>202-887-0552</li>
-              <li><i class="fa-li fa fa-envelope"></i><a href="mailto:rmehle@achatesadvisors.com">rmehle@achatesadvisors.com</a></li>
-            </ul>
-          </div>
+           <%= render 'layouts/structure/footer-about' %>
+           <%= render 'layouts/structure/footer-connect' %>
+           <%= render 'layouts/structure/footer-contact' %>
         </div>
       </div>
     </div>
@@ -131,7 +114,7 @@
 
 <!---  BEGIN SIGN OFF -->
 <div class="row">
-  <div id="signoff"></div>
+  <div id="signoff">© 2014 Achates Capital Advisors, LLC</div>
 </div>
 <!---  END SIGN OFF -->
 
