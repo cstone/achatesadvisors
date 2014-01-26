@@ -73,7 +73,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="37" selection-start="2560" selection-end="2560" vertical-scroll-proportion="1.3506849" vertical-offset="663" max-vertical-offset="1292">
+            <state line="8" column="50" selection-start="364" selection-end="364" vertical-scroll-proportion="0.37260273" vertical-offset="0" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -618,7 +618,11 @@
       <created>1390761629265</created>
       <updated>1390761629265</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update logger">
+      <created>1390763953628</created>
+      <updated>1390763953628</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -689,7 +693,8 @@
     <MESSAGE value="Update database.yml" />
     <MESSAGE value="Update precompile to false for Heroku" />
     <MESSAGE value="Update precompile to false for Heroku&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update precompile to false for Heroku&#10;" />
+    <MESSAGE value="Update logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update logger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -999,7 +1004,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="37" selection-start="2560" selection-end="2560" vertical-scroll-proportion="1.3506849" vertical-offset="663" max-vertical-offset="1292">
+        <state line="8" column="50" selection-start="364" selection-end="364" vertical-scroll-proportion="0.37260273" vertical-offset="0" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
