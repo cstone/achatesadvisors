@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42bc5edf-7051-4004-9921-d55323c1d68e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140126222457_add_delete_image_to_pages.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/carrierwave.rb" afterPath="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/page.rb" afterPath="$PROJECT_DIR$/app/models/page.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/pages.rb" afterPath="$PROJECT_DIR$/app/admin/pages.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="achatesadvisors.iws" />
@@ -16,10 +22,10 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/achatesadvisors@contact_us_copy_views__achatesadvisors.coverage" NAME="contact_us:copy_views: achatesadvisors Coverage Results" MODIFIED="1390690350620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
     <SUITE FILE_PATH="coverage/achatesadvisors@contact_us_install__achatesadvisors.coverage" NAME="contact_us:install: achatesadvisors Coverage Results" MODIFIED="1390572604032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
-    <SUITE FILE_PATH="coverage/achatesadvisors@routes__achatesadvisors.coverage" NAME="routes: achatesadvisors Coverage Results" MODIFIED="1390690645789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
+    <SUITE FILE_PATH="coverage/achatesadvisors@routes__achatesadvisors.coverage" NAME="routes: achatesadvisors Coverage Results" MODIFIED="1390777208911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
     <SUITE FILE_PATH="coverage/achatesadvisors@figaro_heroku_app___achatesadvisors.coverage" NAME="figaro:heroku[app]: achatesadvisors Coverage Results" MODIFIED="1390771598823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
     <SUITE FILE_PATH="coverage/achatesadvisors@Rails_console__achatesadvisors.coverage" NAME="Rails console: achatesadvisors Coverage Results" MODIFIED="1390542428548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
-    <SUITE FILE_PATH="coverage/achatesadvisors@db_migrate__achatesadvisors.coverage" NAME="db:migrate: achatesadvisors Coverage Results" MODIFIED="1390695868025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
+    <SUITE FILE_PATH="coverage/achatesadvisors@db_migrate__achatesadvisors.coverage" NAME="db:migrate: achatesadvisors Coverage Results" MODIFIED="1390775200341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
     <SUITE FILE_PATH="coverage/achatesadvisors@Development__achatesadvisors.coverage" NAME="Development: achatesadvisors Coverage Results" MODIFIED="1390720136796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="achatesadvisors" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -34,15 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="carrierwave.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="308" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page_image_uploader.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/uploaders/page_image_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,19 +49,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/application.yml">
+      <file leaf-file-name="pages.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="424" selection-end="424" vertical-scroll-proportion="0.51232874" vertical-offset="0" max-vertical-offset="365">
+            <state line="10" column="31" selection-start="218" selection-end="218" vertical-scroll-proportion="0.3260274" vertical-offset="51" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <file leaf-file-name="pages_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="50" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
+            <state line="92" column="0" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0" vertical-offset="1299" max-vertical-offset="1700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20140126222457_add_delete_image_to_pages.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140126222457_add_delete_image_to_pages.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="12" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -74,6 +80,15 @@
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="50" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -91,7 +106,7 @@
       <file leaf-file-name="page.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/page.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="11" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -102,21 +117,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="11" column="4" selection-start="484" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/contact_us/contacts/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="109" selection-start="129" selection-end="129" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="782">
-              <folding>
-                <marker date="1390751550852" expanded="true" signature="326:610" placeholder="..." />
-                <marker date="1390751550852" expanded="true" signature="689:966" placeholder="..." />
-                <marker date="1390751550852" expanded="true" signature="1074:1373" placeholder="..." />
-                <marker date="1390751550852" expanded="true" signature="1452:1738" placeholder="..." />
-                <marker date="1390751550852" expanded="true" signature="1760:1893" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/jquery-ui.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/jquery-ui.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_footer-connect.html.erb" />
@@ -155,9 +154,7 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/my_styles.css.scss" />
         <option value="$PROJECT_DIR$/app/views/pages/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/admin/pages.rb" />
         <option value="$PROJECT_DIR$/app/views/contact_us/contacts/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/page.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/page_image_uploader.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
@@ -167,6 +164,9 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
         <option value="$PROJECT_DIR$/config/application.yml" />
+        <option value="$PROJECT_DIR$/app/models/page.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/pages_controller.rb" />
+        <option value="$PROJECT_DIR$/app/admin/pages.rb" />
       </list>
     </option>
   </component>
@@ -253,24 +253,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="achatesadvisors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="achatesadvisors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -289,7 +271,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="achatesadvisors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="achatesadvisors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="achatesadvisors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="achatesadvisors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -310,7 +328,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager" selected="Rake.figaro:heroku[app]: achatesadvisors">
+  <component name="RunManager" selected="Rake.routes: achatesadvisors">
     <configuration default="false" name="Rails console: achatesadvisors" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="achatesadvisors" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -562,10 +580,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.figaro:heroku[app]: achatesadvisors" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.contact_us:copy_views: achatesadvisors" />
-        <item index="2" class="java.lang.String" itemvalue="Rake.contact_us:install: achatesadvisors" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate: achatesadvisors" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate: achatesadvisors" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.figaro:heroku[app]: achatesadvisors" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.contact_us:copy_views: achatesadvisors" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.contact_us:install: achatesadvisors" />
         <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: achatesadvisors" />
       </list>
     </recent_temporary>
@@ -654,7 +672,11 @@
       <created>1390771562426</created>
       <updated>1390771562426</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update AWS Region&#10;">
+      <created>1390771832825</created>
+      <updated>1390771832825</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -730,36 +752,13 @@
     <MESSAGE value="Update stylesheet reference to heroku" />
     <MESSAGE value="Add Figaro Heroku" />
     <MESSAGE value="Update AWS Region" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update AWS Region" />
+    <MESSAGE value="Update AWS Region&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update AWS Region&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="19" selection-start="5401" selection-end="5401" vertical-scroll-proportion="0.0" vertical-offset="1783" max-vertical-offset="2669">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140123042626_create_pages.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="72" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="763" max-vertical-offset="1598" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../kevinjstone/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="100" selection-start="0" selection-end="100" vertical-scroll-proportion="-0.3543956" vertical-offset="129" max-vertical-offset="493" />
@@ -936,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
@@ -954,46 +946,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="109" selection-start="129" selection-end="129" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="782">
           <folding>
-            <marker date="1390751550852" expanded="true" signature="326:610" placeholder="..." />
-            <marker date="1390751550852" expanded="true" signature="689:966" placeholder="..." />
-            <marker date="1390751550852" expanded="true" signature="1074:1373" placeholder="..." />
-            <marker date="1390751550852" expanded="true" signature="1452:1738" placeholder="..." />
-            <marker date="1390751550852" expanded="true" signature="1760:1893" placeholder="..." />
+            <marker date="1390751550852" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390751550852" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390751550852" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390751550852" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1390751550852" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/page.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.46703297" vertical-offset="0" max-vertical-offset="364">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="22" selection-start="217" selection-end="240" vertical-scroll-proportion="-0.93406594" vertical-offset="561" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
@@ -1012,16 +976,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/../kevinjstone/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="50" selection-start="3071" selection-end="3071" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../kevinjstone/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.46703297" vertical-offset="0" max-vertical-offset="364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="50" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.51373625" vertical-offset="0" max-vertical-offset="364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="50" selection-start="3071" selection-end="3071" vertical-scroll-proportion="3.1291208" vertical-offset="0" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
@@ -1033,16 +1039,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140126222457_add_delete_image_to_pages.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="308" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+        <state line="1" column="12" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.yml">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="424" selection-end="424" vertical-scroll-proportion="0.51232874" vertical-offset="0" max-vertical-offset="365">
+        <state line="12" column="21" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/page.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0" vertical-offset="1299" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/pages.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="31" selection-start="218" selection-end="218" vertical-scroll-proportion="0.3260274" vertical-offset="51" max-vertical-offset="629">
           <folding />
         </state>
       </provider>

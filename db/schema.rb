@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140126002038) do
+ActiveRecord::Schema.define(:version => 20140126222457) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -59,8 +59,9 @@ ActiveRecord::Schema.define(:version => 20140126002038) do
     t.string   "permalink"
     t.text     "content"
     t.string   "page_image"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",        :null => false
+    t.datetime "updated_at",        :null => false
+    t.boolean  "delete_page_image"
   end
 
   add_index "pages", ["permalink"], :name => "index_pages_on_permalink"

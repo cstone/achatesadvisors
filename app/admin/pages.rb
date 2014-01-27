@@ -8,8 +8,24 @@ ActiveAdmin.register Page do
     column :name
     column :permalink
     column :content
-    column :page_image
+    column :page_image do |page|
+      image_tag(page.page_image)
+    end
     default_actions
   end
 
+  show do |page|
+    attributes_table do
+      row :id
+      row :name
+      row :permalink
+      row :content
+      row :page_image do
+        image_tag(page.page_image.url)
+      end
+      row :created_at
+      row :updated_at
+    end
+    active_admin_comments
+  end
 end

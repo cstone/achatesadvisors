@@ -85,4 +85,10 @@ class PagesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+
+  def remove_page_image
+    page = Page.find_by_permalink!(params[:id])
+    page.remove_page_image! if page
+  end
 end
