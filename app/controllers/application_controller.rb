@@ -11,6 +11,7 @@ class ApplicationController < ActionController::Base
     @contact_us_email = DynamicContent.get_value(:contactemail)
     @contact_map = DynamicContent.get_value(:contactmap)
     @footer_about = DynamicContent.get_value(:footerabout)
+    @site_title = DynamicContent.get_value(:sitetitle)
     @footer_about_title = DynamicContent.get_title(:footerabout)
   end
 end

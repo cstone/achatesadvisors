@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Achates Capital Advisors, LLC</title>
+  <title><%= raw(@site_title) %></title>
   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
   <link href="https://s3.amazonaws.com/achatesadvisors/app/assets/stylesheets/my_styles.css" rel="stylesheet">
@@ -14,8 +14,8 @@
   <div class="container">
     <div class="col-md-7"><%= link_to 'Achates Capital Advisors, LLC', root_path, class: 'navbar-brand' %></div>
 
-    <div class="col-md-3 text-right"><i class="fa fa-envelope"></i> <a href="mailto:rmehle@achatesadvisors.com">rmehle@achatesadvisors.com</a></div>
-    <div class="col-md-2 text-right"><i class="fa fa-phone"></i> 202-887-0552 </div>
+    <div class="col-md-3 text-right"><i class="fa fa-envelope"></i> <%= mail_to(@contact_us_email) %></div>
+    <div class="col-md-2 text-right"><i class="fa fa-phone"></i> <%= raw(@contact_us_phone) %> </div>
   </div>
 </div>
 
