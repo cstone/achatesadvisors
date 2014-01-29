@@ -7,7 +7,7 @@ Achatesadvisors::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
-  get '/contact', to: 'contact_us/contacts#new', as: :contact
+  #get '/contact', to: 'contact_us/contacts#new', as: :contact
   get ':id', to: 'pages#show', as: :named
   resources :pages, except: :show
 

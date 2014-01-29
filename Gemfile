@@ -30,7 +30,6 @@ end
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'activeadmin'
-gem 'contact_us', '~> 0.4.0'
 gem 'carrierwave'
 gem 'fog'
 gem 'rmagick', '2.13.2', :require => 'RMagick'

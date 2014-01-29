@@ -2,35 +2,13 @@
 /* CSS Document */
 
 body {
-  background: url(http://subtlepatterns.com/patterns/farmer.png) repeat;
-}
-
-.masthead {
-  background-color: #003366;
-  padding: 12px 0px;
-  color: #FFFFFF;
-  font-family: 'Montserrat',sans-serif;
-  margin-bottom: 25px;
-  background: -webkit-linear-gradient(#003366, #00274F); /* For Safari */
-  background: -o-linear-gradient(#003366, #00274F); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#003366, #00274F); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#003366, #00274F); /* Standard syntax */
-}
-
-.masthead > .container {
-  color: #FFFFFF;
-  background-color:transparent;
-}
-
-.masthead a {
-  color: #FFFFFF;
-}
-
-.navbar-brand {
-  float: left;
-  padding: 0;
-  font-size: 18px;
-  line-height: 20px;
+  background: #E3DDB9;
+  /*background: -webkit-linear-gradient(#C4732A, #9D4726); *//* For Safari */
+  /*background: -o-linear-gradient(#C4732A, #9D4726); *//* For Opera 11.1 to 12.0 */
+  /*background: -moz-linear-gradient(#C4732A, #9D4726); *//* For Firefox 3.6 to 15 */
+  /*background: linear-gradient(#C4732A, #9D4726); *//* Standard syntax */
+  margin: 30px 0 50px;
+  color: #3B3B3B;
 }
 
 .img-float-right {
@@ -40,36 +18,24 @@ body {
   border:1px solid #CCCC99;
 }
 
-.containermargintop {
-  margin-top: 80px;
-}
-
-.container {
-  /*background-color:#FFFFFF;*/
-  color:#003366;
-}
 
 .container-bg-white {
   background-color:#FFFFFF;
+  padding: 10px 15px 20px;
 }
 
-#contentsection {
-  padding:10px 15px 30px;
-}
-#adrow {
-  background-color:#CCCCCC;
-  padding:30px;
-  text-align:center;
-}
 #footer {
-  /*background-color:#CCCC99;*/
-  color:#003366;
-  padding:40px 30px;
-  /*border-top: 1px solid #003366;*/
-  background: -webkit-linear-gradient(#CCCC99, #C8C891); /* For Safari */
-  background: -o-linear-gradient(#CCCC99, #C8C891); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#CCCC99, #C8C891); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#CCCC99, #C8C891); /* Standard syntax */
+  color:#ffffff;
+  padding:10px 0px;
+  text-align: center;
+  background: -webkit-linear-gradient(#C15429, #9B4725); /* For Safari */
+  background: -o-linear-gradient(#C15429, #9B4725); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#C15429, #9B4725); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#C15429, #9B4725); /* Standard syntax */
+}
+
+ul.list-inline {
+    margin-top: 10px;
 }
 
 #footer a {
@@ -156,16 +122,29 @@ blockquote {
   border-color: #CCCCCC;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  background-color:#003366;
-  color:#FFFFFF;
-}
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #FFFFFF;
-  background-color: #003366;
-}
 
 form > li {
   list-style: none;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: rgb(255, 255, 255);
+    background: -webkit-linear-gradient(#C15429, #9B4725); /* For Safari */
+    background: -o-linear-gradient(#C15429, #9B4725); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C15429, #9B4725); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C15429, #9B4725); /* Standard syntax */
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background: -webkit-linear-gradient(#C15429, #9B4725); /* For Safari */
+    background: -o-linear-gradient(#C15429, #9B4725); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#C15429, #9B4725); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#C15429, #9B4725); /* Standard syntax */
+    color: #FFFFFF;
+}
+
+.nav-pills > li > a {
+    border-radius: 4px;
+    color: #3B3B3B;
 }
