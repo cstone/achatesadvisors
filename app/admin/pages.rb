@@ -3,6 +3,15 @@ ActiveAdmin.register Page do
     defaults :finder => :find_by_permalink
   end
 
+  form do |f|
+    f.inputs do
+      f.input :name
+      f.input :permalink
+      f.input :content, :input_html => { :class => "tinymce" }
+      f.input :page_image
+    end
+  end
+
   index do
     selectable_column
     column :name

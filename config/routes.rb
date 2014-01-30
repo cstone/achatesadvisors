@@ -1,5 +1,6 @@
 Achatesadvisors::Application.routes.draw do
   #resources :dynamic_contents
+  resources :pages
 
 
   root :to => 'pages#show', id: 'home'

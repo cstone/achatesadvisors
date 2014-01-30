@@ -34,6 +34,8 @@ gem 'carrierwave'
 gem 'fog'
 gem 'rmagick', '2.13.2', :require => 'RMagick'
 gem 'figaro'
+gem 'tinymce-rails'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

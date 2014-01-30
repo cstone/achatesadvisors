@@ -90,8 +90,14 @@ blockquote {
   padding:15px 30px;
 }
 
+.text-right {
+    text-align: right;
+}
 
-
+.masthead-address {
+    text-align: right;
+    padding-top: 10px;
+}
 
 .leftcolor {
   background-color: #F0F0F0;

@@ -206,5 +206,8 @@ ActiveAdmin.setup do |config|
   #
   # config.filters = true
 
+  # For tinymce rails
+  config.register_javascript 'tinymce.js'
+  #config.register_javascript 'http://tinymce.cachefly.net/4.0/tinymce.min.js'
 
 end
