@@ -67,4 +67,6 @@ Achatesadvisors::Application.configure do
 
   config.logger = Logger.new(STDOUT)
   config.logger.level = Logger::DEBUG
+
+  config.assets.precompile += %w( aa_javascript.js )
 end
